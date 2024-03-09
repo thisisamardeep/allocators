@@ -3,6 +3,13 @@
 
 class Allocator {
 
+protected:
+    std::size_t m_totalSize;
+public:
+    Allocator(const std::size_t m_totalSize) {
+
+    }
+
 };
 
 

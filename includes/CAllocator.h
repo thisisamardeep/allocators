@@ -6,6 +6,9 @@
 
 class CAllocator : public Allocator {
 
+public:
+    CAllocator();
+
 };
 
 

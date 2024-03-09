@@ -4,7 +4,7 @@ SET(CMAKE_CXX_FLAGS "-save-temps -finstrument-functions -O0 -g3 -fno-elide-const
 set(CMAKE_VERBOSE_MAKEFILE ON)
 SET(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-set(SOURCES src/main.cpp)
+set(SOURCES src/main.cpp src/CAllocator.cpp)
 
 add_executable(main ${SOURCES})
 message(3333)
