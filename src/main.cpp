@@ -10,6 +10,6 @@ int main() {
     const std::vector<std::size_t> ALLOCATION_SIZES {32, 64, 256, 512, 1024, 2048, 4096};
     const std::vector<std::size_t> ALIGNMENTS {8, 8, 8, 8, 8, 8, 8};
 
-//    Allocator * cAllocator = new CAllocator();
+    Allocator * cAllocator = new CAllocator();
 
 }
