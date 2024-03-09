@@ -1,6 +1,7 @@
 #include "CAllocator.h"
 
 
-CAllocator::CAllocator(): Allocator(0) {
+CAllocator::CAllocator() : Allocator(0) {
 
 }
+

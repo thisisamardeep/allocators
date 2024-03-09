@@ -1,12 +1,18 @@
 #ifndef ALLOCATOR_H
 #define ALLOCATOR_H
 
+#include <cstddef> // size_t
+
 class Allocator {
 
 protected:
     std::size_t m_totalSize;
+    std::size_t m_used;
+    std::size_t m_peak;
+
 public:
-    Allocator(const std::size_t m_totalSize) {
+    Allocator(const std::size_t totalSize) : m_totalSize{totalSize},
+                                             m_used{0}, m_peak{0} {
 
     }
 
