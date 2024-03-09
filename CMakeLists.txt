@@ -1,5 +1,8 @@
 cmake_minimum_required (VERSION 3.5)
 project (mymemory-allocators LANGUAGES CXX)
+SET(CMAKE_CXX_FLAGS "-save-temps -finstrument-functions -O0 -g3 -fno-elide-constructors")
+set(CMAKE_VERBOSE_MAKEFILE ON)
+SET(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(SOURCES src/main.cpp)
 
