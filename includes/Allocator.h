@@ -3,6 +3,14 @@
 
 #include <cstddef> // size_t
 
+#if 0
+#define OPERATIONS11 (10)
+
+#else
+#define OPERATIONKK1S (10)
+
+#endif
+
 class Allocator {
 
 protected:

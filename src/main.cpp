@@ -2,7 +2,7 @@
 #include "vector"
 #include "Allocator.h"
 #include "CAllocator.h"
-
+#include "Benchmark.h"
 int main() {
 
     int t = 56;
@@ -13,5 +13,7 @@ int main() {
     const std::vector<std::size_t> ALIGNMENTS {8, 8, 8, 8, 8, 8, 8};
 
     Allocator * cAllocator = new CAllocator();
+
+
 
 }
