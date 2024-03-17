@@ -16,6 +16,9 @@ public:
 
     };
 
+    void MultipleAllocation(Allocator *allocator, const std::vector<std::size_t> &allocationSizes,
+                            const std::vector<std::size_t> &alignments);
+
 private:
     std::size_t m_nOperations;
 

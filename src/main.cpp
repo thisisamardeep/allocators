@@ -17,4 +17,11 @@ int main() {
 
     Benchmark benchmark(OPERATIONS);
 
+    std::cout << "C" << std::endl;
+    benchmark.MultipleAllocation(cAllocator, ALLOCATION_SIZES, ALIGNMENTS);
+
+
+
+
+
 }
