@@ -11,6 +11,14 @@
 class Benchmark {
 public:
     Benchmark() = delete;
+
+    Benchmark(const unsigned int nOperations) : m_nOperations{nOperations} {
+
+    };
+
+private:
+    std::size_t m_nOperations;
+
 };
 
 
